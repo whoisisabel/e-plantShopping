@@ -42,6 +42,9 @@ const CartItem = ({ onContinueShopping }) => {
   return (
     <div className="cart-container">
       <h2 style={{ color: "black" }}>
+        Total Cart Items: {cart.reduce((acc, item) => acc + item.quantity, 0)}
+      </h2>
+      <h2 style={{ color: "black" }}>
         Total Cart Amount: ${calculateTotalAmount()}
       </h2>
       <div>
@@ -98,8 +101,7 @@ const CartItem = ({ onContinueShopping }) => {
           onClick={() => handleCheckoutShopping()}
           disabled={cart.length === 0}
         >
-          {cart.length > 0 ?"Checkout":"Add items to Checkout"}
-          
+          {cart.length > 0 ? "Checkout" : "Add items to Checkout"}
         </button>
       </div>
     </div>
