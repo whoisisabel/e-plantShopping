@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ProductList from "./ProductList";
 import "./App.css";
 import AboutUs from "./AboutUs";
@@ -20,9 +20,9 @@ function App() {
         <div className="background-image"></div>
         <div className="content">
           <div className="landing_content">
-            <h1>Welcome To Paradise Nursery</h1>
+            <h1>Welcome To Plant Lovers Nursery</h1>
             <div className="divider"></div>
-            <p>Where Green Meets Serenity</p>
+            <p>Where Plant Lovers Meets Serenity</p>
 
             <button
               className="get-started-button"

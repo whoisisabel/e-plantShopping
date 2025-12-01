@@ -137,7 +137,7 @@ body {
     font-size: 20px;
 }
 .tag_home_link h3{
-    font-size: 30px;
+    font-size: 18px;
 }
 .tag a{
     text-decoration: none;
@@ -150,10 +150,10 @@ body {
 }
 
 .tag img {
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     border-radius: 70%;
-    
+    margin-right: 10px;
 }
 
 .luxury {
@@ -161,7 +161,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 650px;
-    font-size: 19px;
+    font-size: 16px;
 }
 .cart{
     color: white;
