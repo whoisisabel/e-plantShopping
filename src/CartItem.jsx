@@ -96,8 +96,10 @@ const CartItem = ({ onContinueShopping }) => {
         <button
           className="get-started-button1"
           onClick={() => handleCheckoutShopping()}
+          disabled={cart.length === 0}
         >
-          Checkout
+          {cart.length > 0 ?"Checkout":"Add items to Checkout"}
+          
         </button>
       </div>
     </div>
